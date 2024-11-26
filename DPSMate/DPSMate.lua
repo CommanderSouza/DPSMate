@@ -284,6 +284,7 @@ function DPSMate:InitializeFrames()
 				bar.name:SetPoint("BOTTOMRIGHT", bar, "BOTTOMRIGHT")
 				bar.icon:SetWidth(val["barheight"])
 				bar.icon:SetHeight(val["barheight"])
+				bar.icon:SetTexCoord(.078, .92, .079, .937)
 				bar.icon:Show()
 			end
 
